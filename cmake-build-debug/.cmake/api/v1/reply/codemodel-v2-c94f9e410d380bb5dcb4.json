@@ -1,0 +1,216 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "stack",
+					"jsonFile" : "directory-stack-Debug-c50bba7e2e65c9bfb5d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "stack",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "token",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-token-Debug-9eee3c9dd6250bb7a60c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "token",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "token/function",
+					"jsonFile" : "directory-token.function-Debug-26da6f20827ee6a27934.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "token/function",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "token/operator",
+					"jsonFile" : "directory-token.operator-Debug-5141dd95cd97ba728007.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "token/operator",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "token/number",
+					"jsonFile" : "directory-token.number-Debug-30e0808af40b2abbe236.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "token/number",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "token/parenthesis",
+					"jsonFile" : "directory-token.parenthesis-Debug-95ca7231d6b54f94f032.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "token/parenthesis",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "calculator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calculator-Debug-d424f722834cfa16d656.json",
+					"name" : "calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "function::@315e520ea3d9cb9ed6da",
+					"jsonFile" : "target-function-Debug-5a5ffbfb134d59c882fe.json",
+					"name" : "function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "number::@0c7c265c9d0e6f5a52dc",
+					"jsonFile" : "target-number-Debug-b23a9e3df657e2ebaafb.json",
+					"name" : "number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "operator::@4d5da1b8201dbd356fe5",
+					"jsonFile" : "target-operator-Debug-d598e4ee1cb14dbfcf4c.json",
+					"name" : "operator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "parenthesis::@ebfce5fd2671a4fb51c3",
+					"jsonFile" : "target-parenthesis-Debug-33e634556483a41be41b.json",
+					"name" : "parenthesis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stack::@b5371760465ddb38638a",
+					"jsonFile" : "target-stack-Debug-a6255db43fbbd016828b.json",
+					"name" : "stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "token::@8a0df52bcedfa7661d4c",
+					"jsonFile" : "target-token-Debug-dabdb66f7e2861a6fcae.json",
+					"name" : "token",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Projects/c-workspace/calculator/cmake-build-debug",
+		"source" : "D:/Projects/c-workspace/calculator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

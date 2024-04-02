@@ -1,0 +1,27 @@
+# ninja log v5
+22	103	7337597672294360	CMakeFiles/calculator.dir/stack/SimplexNode.cpp.obj	d73e7eb97c45750b
+7	83	7337597672084027	CMakeFiles/calculator.dir/token/Token.cpp.obj	ff9af241f53d68f
+26	129	7337597672567436	CMakeFiles/calculator.dir/token/operator/OperatorToken.cpp.obj	ec707bc8feb38b30
+16	107	7337597672337141	CMakeFiles/calculator.dir/token/AbstractToken.cpp.obj	772b49e64980c49f
+38	307	7337676992852849	token/number/CMakeFiles/number.dir/NumericToken.cpp.obj	590ffe5cbf7d0d4e
+10	400	7337597675272368	CMakeFiles/calculator.dir/stack/Stack.cpp.obj	18683882db29dbc5
+19	117	7337597672432168	CMakeFiles/calculator.dir/token/parenthesis/Parenthesis.cpp.obj	de41a79df6174d94
+0	117	7337680045236058	build.ninja	e4b8446d27d6ee64
+8	472	7337678522285922	CMakeFiles/calculator.dir/main.cpp.obj	b07b7d3fc6fc5fdd
+13	2717	7337597698357694	CMakeFiles/calculator.dir/token/TokenType.cpp.obj	152f9781a8f0b138
+35	129	7337597672567436	CMakeFiles/calculator.dir/token/function/FunctionToken.cpp.obj	6b9193ec5913e87f
+31	249	7337597673766256	CMakeFiles/calculator.dir/token/number/NumericToken.cpp.obj	44d321cfd25c51d
+11	94	7337678518505608	stack/CMakeFiles/stack.dir/SimplexNode.cpp.obj	dc45bc8dd008eb18
+19	128	7337676991002012	token/CMakeFiles/token.dir/Token.cpp.obj	ed90045af3cc4f5e
+23	154	7337676991282004	token/CMakeFiles/token.dir/AbstractToken.cpp.obj	2424d73188fa0931
+27	155	7337676991302005	token/function/CMakeFiles/function.dir/FunctionToken.cpp.obj	eed0d38b0302fe8b
+42	170	7337676991461998	token/parenthesis/CMakeFiles/parenthesis.dir/Parenthesis.cpp.obj	3f13e432c4320d36
+170	259	7337676992327592	token/parenthesis/libparenthesis.a	5ef9cb6bd6181212
+31	164	7337676991402014	token/operator/CMakeFiles/operator.dir/OperatorToken.cpp.obj	9392f23fac1db51d
+474	557	7337676995313473	token/function/libfunction.a	b58bf1d3a919aa28
+389	474	7337676994458039	token/operator/liboperator.a	b422a0c988db9661
+307	389	7337676993632918	token/number/libnumber.a	9c6b764228cfe675
+3	311	7337678520658200	stack/CMakeFiles/stack.dir/Stack.cpp.obj	e18bd0315131ec1b
+311	394	7337678521456596	stack/libstack.a	cbca2089e4ba1639
+15	2764	7337677017274149	token/CMakeFiles/token.dir/TokenType.cpp.obj	40782b4f3666e01b
+2765	4053	7337677030259294	token/libtoken.a	d9c4ecef2e41c877

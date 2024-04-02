@@ -1,0 +1,173 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "token/libtoken.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"token/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/c-workspace/calculator/token/function"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/c-workspace/calculator/token/function/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/c-workspace/calculator/token/operator"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/c-workspace/calculator/token/operator/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/c-workspace/calculator/token/number"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/c-workspace/calculator/token/number/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/c-workspace/calculator/token/parenthesis"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "D:/Projects/c-workspace/calculator/token/parenthesis/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "function::@315e520ea3d9cb9ed6da"
+		}
+	],
+	"id" : "token::@8a0df52bcedfa7661d4c",
+	"name" : "token",
+	"nameOnDisk" : "libtoken.a",
+	"paths" : 
+	{
+		"build" : "token",
+		"source" : "token"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "token/Token.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "token/Token.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "token/TokenType.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "token/TokenType.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "token/AbstractToken.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "token/AbstractToken.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
